@@ -2,8 +2,8 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  name_hash.collect do |name, value|
-    return name.max.reverse
+  name_hash.collect do |keys, value|
+    return keys.max.reverse
   end
 
 end
