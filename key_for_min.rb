@@ -5,7 +5,8 @@ def key_for_min_value(name_hash)
   current_min_value = ""
   current_key = ""
   name_hash.each do |key, value|
-    if value < current_min_value
+      
+      if current_min_value == "" || value < current_min_value
       current_min_value = value
       current_key = key
     end
