@@ -3,7 +3,9 @@
 
 def key_for_min_value(name_hash)
   if hash == 0 
-    return nil 
+    return nil
+    
+
   end
 end
 
